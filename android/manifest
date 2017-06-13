@@ -1,0 +1,18 @@
+#
+# this is your module manifest and used by Titanium
+# during compilation, packaging, distribution, etc.
+#
+version: 1.0.0
+apiversion: 3
+architectures: armeabi-v7a x86
+description: zbar
+author: Rainer Knöterich
+license: Specify your license
+copyright: Copyright (c) 2017 by 
+
+# these should not be edited
+name: zbar
+moduleid: ti.zbar
+guid: abfabbbe-5e4f-47bc-be30-fdb3f7a99ee0
+platform: android
+minsdk: 6.0.4.GA
