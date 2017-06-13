@@ -62,4 +62,76 @@ public class QRInputArgs implements InputArgs {
 	public void setScanFromImageCapture(boolean arg0) {
 		isScanFromImageCapture = arg0;
 	}
+
+	@Override
+	public float getAlpha() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public String getColor() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public KrollFunction getErrorCallback() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String getImageName() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String getLayout() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public boolean isUseJISEncoding() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public void setAlpha(float arg0) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void setColor(String arg0) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void setErrorCallback(KrollFunction arg0) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void setImageName(String arg0) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void setLayout(String arg0) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void setUseJISEncoding(boolean arg0) {
+		// TODO Auto-generated method stub
+
+	}
 }

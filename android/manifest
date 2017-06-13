@@ -2,7 +2,7 @@
 # this is your module manifest and used by Titanium
 # during compilation, packaging, distribution, etc.
 #
-version: 1.0.0
+version: 1.0.1
 apiversion: 3
 architectures: armeabi-v7a x86
 description: zbar
@@ -15,4 +15,4 @@ name: zbar
 moduleid: ti.zbar
 guid: abfabbbe-5e4f-47bc-be30-fdb3f7a99ee0
 platform: android
-minsdk: 6.0.4.GA
+minsdk: 6.0.0.GA
