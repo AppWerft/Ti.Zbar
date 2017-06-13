@@ -10,7 +10,7 @@ import org.appcelerator.kroll.common.Log;
 import org.appcelerator.titanium.util.TiConvert;
 import org.appcelerator.titanium.view.TiUIView;
 
-import ti.zbar.camera.CameraManager;
+import com.acktie.mobile.android.camera.CameraManager;
 
 import android.app.Activity;
 import android.hardware.Camera;
@@ -20,7 +20,7 @@ import android.hardware.Camera;
  *
  */
 @Kroll.proxy(creatableInModule = ZbarModule.class)
-public class QRViewProxy extends TiViewProxy {
+public class QRCodeViewProxy extends TiViewProxy {
 	private static final String LCAT = "QRCodeViewProxy";
 	private CameraManager cameraManager = null;
 	private QRInputArgs args = null;
@@ -28,7 +28,7 @@ public class QRViewProxy extends TiViewProxy {
 	/**
 	 * 
 	 */
-	public QRViewProxy() {
+	public QRCodeViewProxy() {
 		super();
 	}
 
